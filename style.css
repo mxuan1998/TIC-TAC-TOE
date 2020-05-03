@@ -41,7 +41,7 @@ h1 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
-    border: gray, solid, 1px;
+    border: gray solid 1px;
     background-color: white;
 }
 
