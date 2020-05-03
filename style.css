@@ -41,7 +41,7 @@ h1 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
-    border: gray solid 1px;
+    border: 1px solid grey;
     background-color: white;
 }
 
@@ -50,7 +50,7 @@ h1 {
     width: 100px;
     text-align: center;
     font-size: 50px;
-    border: gray, solid, 1px;
+    border: 1px solid gray;
 }
 
 .fa-circle {
