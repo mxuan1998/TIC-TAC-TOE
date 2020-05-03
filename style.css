@@ -1,0 +1,79 @@
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.winner {
+    margin: auto;
+    text-align: center;
+    height: 60px;
+    font-size: 30px;
+}
+
+.players {
+    margin:auto;
+    display: flex;
+    width: 300px;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+
+.player1, .player2 {
+    margin: 10px;
+    color: grey;
+    font-weight: 400;
+}
+
+.player1Play {
+    color: #21243d;
+    font-weight: 800;
+}
+
+.player2Play {
+    color: #ff7c7c;
+    font-weight: 800;
+}
+
+.container {
+    margin: auto;
+    width: 300px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    border: gray, solid, 1px;
+    background-color: white;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    font-size: 50px;
+    border: gray, solid, 1px;
+}
+
+.fa-circle {
+    vertical-align: middle;
+    color: #21243d;
+}
+
+.fa-times {
+    vertical-align: middle;
+    color: #ff7c7c;
+}
+
+#restart {
+    display: block;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    border: 1px solid gray;
+    font-size: 20px;
+    color: black;
+    background-color: white;
+}
+
+#restart:hover {
+    background-color: green;
+}
